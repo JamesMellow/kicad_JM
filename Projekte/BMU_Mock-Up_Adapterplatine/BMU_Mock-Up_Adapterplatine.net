@@ -1,0 +1,522 @@
+# EESchema Netlist Version 1.1 created  11.12.2014 16:42:57
+(
+ ( /5489AB2D $noname  R13 0 {Lib=R}
+  (    1 VCell_12 )
+  (    2 S3 )
+ )
+ ( /5489AB04 $noname  R14 0 {Lib=R}
+  (    1 VCell_0 )
+  (    2 S1 )
+ )
+ ( /54897EBD $noname  P12 CONN_2 {Lib=CONN_2}
+  (    1 VCell_8 )
+  (    2 VCell_7 )
+ )
+ ( /54881E14 $noname  P11 CONN_2 {Lib=CONN_2}
+  (    1 VCC_24V_DC )
+  (    2 BMU_ENABLE )
+ )
+ ( /54881C56 $noname  P8 CONN_4 {Lib=CONN_4}
+  (    1 RS485+ )
+  (    2 RS485- )
+  (    3 GND_LV )
+  (    4 ? )
+ )
+ ( /54881AD7 $noname  P10 CONN_2 {Lib=CONN_2}
+  (    1 HVIL_IN )
+  (    2 HVIL_OUT )
+ )
+ ( /54881A2A $noname  P4 CONN_2 {Lib=CONN_2}
+  (    1 VCell_12 )
+  (    2 VCell_0 )
+ )
+ ( /548819CD $noname  P9 CONN_2 {Lib=CONN_2}
+  (    1 VCC_24V_DC )
+  (    2 GND_LV )
+ )
+ ( /54881952 $noname  P7 CONN_2 {Lib=CONN_2}
+  (    1 VCC_Con+_Protect )
+  (    2 Precharge_CMD )
+ )
+ ( /5488184F $noname  P6 CONN_4 {Lib=CONN_4}
+  (    1 VCC_Con+_Protect )
+  (    2 MAIN-_CMD )
+  (    3 AUX_MAIN- )
+  (    4 GND_CON )
+ )
+ ( /548817AC $noname  P5 CONN_4 {Lib=CONN_4}
+  (    1 VCC_Con+_Protect )
+  (    2 MAIN+_CMD )
+  (    3 AUX_MAIN+ )
+  (    4 GND_CON )
+ )
+ ( /5488160B $noname  J1 DB9 {Lib=DB9}
+  (    1 N.C._2_CAN )
+  (    2 CAN_H_ISO )
+  (    3 N.C._2_CAN )
+  (    4 N.C._2_CAN )
+  (    5 GND_ISO )
+  (    6 N.C._2_CAN )
+  (    7 CAN_L_ISO )
+  (    8 N.C._2_CAN )
+  (    9 N.C._2_CAN )
+ )
+ ( /54881192 $noname  J3 DB37 {Lib=DB37}
+  (    1 CAN_H_ISO )
+  (    2 GND_ISO )
+  (    3 CAN_L_ISO )
+  (    4 N.C._2 )
+  (    5 ? )
+  (    6 ? )
+  (    7 HVIL_OUT )
+  (    8 ? )
+  (    9 RS485+ )
+  (   10 ? )
+  (   11 ? )
+  (   12 BMU_ENABLE )
+  (   13 VCC_24V_DC )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 GND_LV )
+  (   18 ? )
+  (   19 ? )
+  (   20 CAN_L_ISO )
+  (   21 GND_ISO )
+  (   22 CAN_H_ISO )
+  (   23 N.C._2 )
+  (   24 GND_LV )
+  (   25 HVIL_IN )
+  (   26 GND_LV )
+  (   27 RS485- )
+  (   28 GND_LV )
+  (   29 ? )
+  (   30 VCC_24V_DC )
+  (   31 GND_LV )
+  (   32 GND_LV )
+  (   33 N.C._2 )
+  (   34 ? )
+  (   35 ? )
+  (   36 GND_LV )
+  (   37 GND_LV )
+ )
+ ( /5488118A $noname  J7 DB37 {Lib=DB37}
+  (    1 ? )
+  (    2 ? )
+  (    3 GND_CON )
+  (    4 MAIN+_CMD )
+  (    5 MAIN-_CMD )
+  (    6 ? )
+  (    7 ? )
+  (    8 Precharge_CMD )
+  (    9 GND_CON )
+  (   10 VCC_Con+_Protect )
+  (   11 GND_CON )
+  (   12 ? )
+  (   13 GND_CON )
+  (   14 ? )
+  (   15 GND_CON )
+  (   16 ? )
+  (   17 ? )
+  (   18 GND_CON )
+  (   19 ? )
+  (   20 GND_CON )
+  (   21 ? )
+  (   22 ? )
+  (   23 AUX_MAIN+ )
+  (   24 AUX_MAIN- )
+  (   25 ? )
+  (   26 ? )
+  (   27 ? )
+  (   28 ? )
+  (   29 GND_CON )
+  (   30 ? )
+  (   31 ? )
+  (   32 ? )
+  (   33 ? )
+  (   34 ? )
+  (   35 ? )
+  (   36 ? )
+  (   37 ? )
+ )
+ ( /54881113 $noname  P1 CONN_6X2 {Lib=CONN_6X2}
+  (    1 NTC_1 )
+  (    2 NTC_1 )
+  (    3 VBAT- )
+  (    4 VBAT- )
+  (    5 NTC_2 )
+  (    6 NTC_2 )
+  (    7 VBAT- )
+  (    8 VBAT- )
+  (    9 NTC_3 )
+  (   10 NTC_3 )
+  (   11 VBAT- )
+  (   12 VBAT- )
+ )
+ ( /54880BCD $noname  R7 R {Lib=R}
+  (    1 VCell_7 )
+  (    2 S2 )
+ )
+ ( /54880BCB $noname  R8 R {Lib=R}
+  (    1 VCell_8 )
+  (    2 VCell_7 )
+ )
+ ( /54880BC8 $noname  R9 R {Lib=R}
+  (    1 VCell_9 )
+  (    2 VCell_8 )
+ )
+ ( /54880BC4 $noname  R10 R {Lib=R}
+  (    1 VCell_10 )
+  (    2 VCell_9 )
+ )
+ ( /54880BC2 $noname  R11 R {Lib=R}
+  (    1 VCell_11 )
+  (    2 VCell_10 )
+ )
+ ( /54880BC0 $noname  R12 R {Lib=R}
+  (    1 VCell_12 )
+  (    2 VCell_11 )
+ )
+ ( /54880BB4 $noname  R6 R {Lib=R}
+  (    1 VCell_5 )
+  (    2 S2 )
+ )
+ ( /54880BAC $noname  R1 R {Lib=R}
+  (    1 VCell_0 )
+  (    2 VCell_1 )
+ )
+ ( /54880BA7 $noname  R2 R {Lib=R}
+  (    1 VCell_1 )
+  (    2 VCell_2 )
+ )
+ ( /54880BA4 $noname  R3 R {Lib=R}
+  (    1 VCell_2 )
+  (    2 VCell_3 )
+ )
+ ( /54880B95 $noname  R5 R {Lib=R}
+  (    1 VCell_4 )
+  (    2 VCell_5 )
+ )
+ ( /54880B89 $noname  R4 R {Lib=R}
+  (    1 VCell_3 )
+  (    2 VCell_4 )
+ )
+ ( /54880B64 $noname  P2 DIL10 {Lib=DIL10}
+  (    1 VCell_1 )
+  (    2 NTC_1 )
+  (    3 S1 )
+  (    4 VCell_10 )
+  (    5 VCell_0 )
+  (    6 VCell_11 )
+  (    7 NTC_2 )
+  (    8 VCell_12 )
+  (    9 NTC_3 )
+  (   10 S3 )
+ )
+ ( /54880B5A $noname  P3 DIL16 {Lib=DIL16}
+  (    1 S2 )
+  (    2 ? )
+  (    3 VCell_5 )
+  (    4 S2 )
+  (    5 VCell_4 )
+  (    6 VCell_7 )
+  (    7 VCell_3 )
+  (    8 VCell_8 )
+  (    9 VCell_2 )
+  (   10 VCell_9 )
+  (   11 N.C._1 )
+  (   12 N.C._1 )
+  (   13 N.C._1 )
+  (   14 N.C._1 )
+  (   15 N.C._1 )
+  (   16 N.C._1 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component J1
+ DB9*
+$endlist
+$component J3
+ DB37*
+$endlist
+$component J7
+ DB37*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND_ISO" "GND_ISO"
+ J1 5
+ J3 2
+ J3 21
+Net 2 "N.C._2" "N.C._2"
+ J3 33
+ J3 23
+ J3 4
+Net 5 "HVIL_OUT" "HVIL_OUT"
+ P10 2
+ J3 7
+Net 6 "RS485+" "RS485+"
+ J3 9
+ P8 1
+Net 7 "VCC_24V_DC" "VCC_24V_DC"
+ P9 1
+ P11 1
+ J3 30
+ J3 13
+Net 9 "RS485-" "RS485-"
+ J3 27
+ P8 2
+Net 10 "GND_LV" "GND_LV"
+ P8 3
+ P9 2
+ J3 31
+ J3 17
+ J3 37
+ J3 28
+ J3 36
+ J3 32
+ J3 24
+ J3 26
+Net 12 "GND_CON" "GND_CON"
+ J7 11
+ J7 18
+ J7 13
+ J7 15
+ P6 4
+ J7 29
+ J7 9
+ J7 3
+ J7 20
+ P5 4
+Net 13 "MAIN+_CMD" "MAIN+_CMD"
+ P5 2
+ J7 4
+Net 15 "MAIN-_CMD" "MAIN-_CMD"
+ J7 5
+ P6 2
+Net 17 "HVIL_IN" "HVIL_IN"
+ J3 25
+ P10 1
+Net 19 "BMU_ENABLE" "BMU_ENABLE"
+ J3 12
+ P11 2
+Net 21 "VCell_12" "VCell_12"
+ P2 8
+ P4 1
+ R13 1
+ R12 1
+Net 22 "VCell_0" "VCell_0"
+ R14 1
+ R1 1
+ P4 2
+ P2 5
+Net 23 "VCell_8" "VCell_8"
+ P3 8
+ R9 2
+ R8 1
+ P12 1
+Net 24 "VCell_7" "VCell_7"
+ P3 6
+ P12 2
+ R7 1
+ R8 2
+Net 25 "N.C._2_CAN" "N.C._2_CAN"
+ J1 3
+ J1 1
+ J1 4
+ J1 6
+ J1 9
+ J1 8
+Net 26 "Precharge_CMD" "Precharge_CMD"
+ J7 8
+ P7 2
+Net 27 "VCC_Con+_Protect" "VCC_Con+_Protect"
+ J7 10
+ P5 1
+ P6 1
+ P7 1
+Net 28 "VCell_10" "VCell_10"
+ P2 4
+ R10 1
+ R11 2
+Net 29 "VCell_2" "VCell_2"
+ R2 2
+ P3 9
+ R3 1
+Net 30 "S1" "S1"
+ P2 3
+ R14 2
+Net 31 "S2" "S2"
+ P3 4
+ P3 1
+ R6 2
+ R7 2
+Net 33 "N.C._1" "N.C._1"
+ P3 13
+ P3 12
+ P3 11
+ P3 16
+ P3 14
+ P3 15
+Net 38 "VBAT-" "VBAT-"
+ P1 7
+ P1 4
+ P1 3
+ P1 8
+ P1 12
+ P1 11
+Net 40 "AUX_MAIN-" "AUX_MAIN-"
+ J7 24
+ P6 3
+Net 43 "AUX_MAIN+" "AUX_MAIN+"
+ J7 23
+ P5 3
+Net 47 "NTC_1" "NTC_1"
+ P1 2
+ P1 1
+ P2 2
+Net 48 "NTC_3" "NTC_3"
+ P2 9
+ P1 9
+ P1 10
+Net 49 "NTC_2" "NTC_2"
+ P1 6
+ P2 7
+ P1 5
+Net 50 "VCell_4" "VCell_4"
+ R5 1
+ P3 5
+ R4 2
+Net 51 "VCell_1" "VCell_1"
+ R2 1
+ R1 2
+ P2 1
+Net 52 "VCell_3" "VCell_3"
+ P3 7
+ R3 2
+ R4 1
+Net 53 "VCell_5" "VCell_5"
+ R6 1
+ P3 3
+ R5 2
+Net 54 "VCell_9" "VCell_9"
+ R9 1
+ R10 2
+ P3 10
+Net 55 "VCell_11" "VCell_11"
+ R11 1
+ P2 6
+ R12 2
+Net 56 "CAN_H_ISO" "CAN_H_ISO"
+ J3 1
+ J1 2
+ J3 22
+Net 76 "CAN_L_ISO" "CAN_L_ISO"
+ J1 7
+ J3 3
+ J3 20
+Net 77 "S3" "S3"
+ R13 2
+ P2 10
+}
+#End
