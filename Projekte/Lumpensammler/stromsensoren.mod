@@ -1,0 +1,52 @@
+PCBNEW-LibModule-V1  09.05.2014 23:15:13
+# encoding utf-8
+Units mm
+$INDEX
+ACS758
+$EndINDEX
+$MODULE ACS758
+Po 0 0 0 15 536D44E6 00000000 ~~
+Li ACS758
+Kw stromsensor
+Sc 0
+AR 
+Op 0 0 0
+T0 -7.62 -5.08 1 1 0 0.15 N V 21 N "ACS758"
+T1 0 1.27 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "5" R 10 30 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -7 -27.62
+$EndPAD
+$PAD
+Sh "4" R 10 30 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 7 -27.62
+$EndPAD
+$PAD
+Sh "1" R 1 15 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.9 -0.12
+$EndPAD
+$PAD
+Sh "3" R 1 15 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.9 -0.12
+$EndPAD
+$PAD
+Sh "2" R 1 15 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -0.12
+$EndPAD
+$EndMODULE ACS758
+$EndLIBRARY
