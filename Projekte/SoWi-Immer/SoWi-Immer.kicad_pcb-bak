@@ -3,9 +3,9 @@
   (general
     (links 23)
     (no_connects 23)
-    (area 0 0 0 0)
+    (area 139.949999 79.949999 182.050001 92.350001)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 4)
     (tracks 0)
     (zones 0)
     (modules 14)
@@ -62,7 +62,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -124,7 +124,7 @@
   )
 
   (module Capacitors_SMD:C_1206 (layer B.Cu) (tedit 5415D7BD) (tstamp 5A33DC78)
-    (at 176.4792 90.3859 90)
+    (at 174.9792 90.2359 90)
     (descr "Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 1206")
     (path /5A33F480)
@@ -157,7 +157,7 @@
   )
 
   (module Eigene_Bauteile:KXOB22-12X1F (layer F.Cu) (tedit 5A33CA29) (tstamp 5A33DC7E)
-    (at 172.7581 82.9818 180)
+    (at 171.25 83.15 180)
     (path /5A33CA61)
     (fp_text reference D1 (at 0 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -182,7 +182,7 @@
   )
 
   (module Eigene_Bauteile:KXOB22-12X1F (layer F.Cu) (tedit 5A33CA29) (tstamp 5A33DC84)
-    (at 151.8285 82.9818 180)
+    (at 150.4 83.15 180)
     (path /5A33CABC)
     (fp_text reference D2 (at 0 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -207,7 +207,7 @@
   )
 
   (module Eigene_Bauteile:KXOB22-12X1F (layer F.Cu) (tedit 5A33CA29) (tstamp 5A33DC8A)
-    (at 151.8285 89.408)
+    (at 150.4 89.25)
     (path /5A33CAE0)
     (fp_text reference D3 (at 0 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -232,7 +232,7 @@
   )
 
   (module Eigene_Bauteile:KXOB22-12X1F (layer F.Cu) (tedit 5A33CA29) (tstamp 5A33DC90)
-    (at 172.7581 89.408)
+    (at 171.2581 89.258)
     (path /5A33CB15)
     (fp_text reference D4 (at 0 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -257,7 +257,7 @@
   )
 
   (module Diodes_SMD:D_0805 (layer B.Cu) (tedit 586A4032) (tstamp 5A33DC96)
-    (at 176.5554 87.122 180)
+    (at 175.0554 86.972 180)
     (descr "Diode SMD in 0805 package")
     (tags "smd diode")
     (path /5A33D423)
@@ -292,7 +292,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer B.Cu) (tedit 58307B90) (tstamp 5A33DC9C)
-    (at 172.1104 90.2843 270)
+    (at 170.6104 90.1343 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /5A33D149)
@@ -325,7 +325,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer B.Cu) (tedit 58307B54) (tstamp 5A33DCA2)
-    (at 178.7398 89.6747 270)
+    (at 177.2398 89.5247 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A342915)
@@ -358,7 +358,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer B.Cu) (tedit 58307B54) (tstamp 5A33DCA8)
-    (at 175.8442 84.8233 90)
+    (at 174.3442 84.6733 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A3417E3)
@@ -391,7 +391,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer B.Cu) (tedit 58307B54) (tstamp 5A33DCAE)
-    (at 175.8442 81.5086 90)
+    (at 174.3442 81.3586 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A341308)
@@ -424,7 +424,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer B.Cu) (tedit 58307B54) (tstamp 5A33DCB4)
-    (at 174.2186 89.6874 270)
+    (at 172.7186 89.5374 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A340EA2)
@@ -457,7 +457,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer B.Cu) (tedit 58307B54) (tstamp 5A33DCBA)
-    (at 177.927 84.8233 90)
+    (at 176.427 84.6733 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A33E416)
@@ -490,7 +490,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer B.Cu) (tedit 58307B54) (tstamp 5A33DCC0)
-    (at 177.927 81.5086 270)
+    (at 176.427 81.3586 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A340B8E)
@@ -523,7 +523,7 @@
   )
 
   (module SSOP_Packages:TSSOP-8_4.4x3mm_Pitch0.65mm (layer B.Cu) (tedit 54130A77) (tstamp 5A33DCCC)
-    (at 172.9105 83.8454 90)
+    (at 171.4105 83.6954 90)
     (descr "8-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SSOP 0.65")
     (path /5A33CF03)
@@ -572,5 +572,10 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_line (start 182 92.3) (end 140 92.3) (angle 90) (layer Edge.Cuts) (width 0.1) (tstamp 5A369A24))
+  (gr_line (start 182 80) (end 140 80) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 182 80) (end 182 92.3) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 140 80) (end 140 92.3) (angle 90) (layer Edge.Cuts) (width 0.1))
 
 )
