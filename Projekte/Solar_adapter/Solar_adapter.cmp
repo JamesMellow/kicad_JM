@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 03.01.2017 14:16:22
+
+BeginCmp
+TimeStamp = /586B87EB/586B882C;
+Reference = C1;
+ValeurCmp = 1n;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /586B87EB/586BB9C6;
+Reference = C2;
+ValeurCmp = 0,1u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /586B87EB/586B8852;
+Reference = C3;
+ValeurCmp = 1u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /586B87EB/586BBC5E;
+Reference = C4;
+ValeurCmp = 10u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /586B87EB/586BB682;
+Reference = D1;
+ValeurCmp = D_Schottky;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /586A3D0A;
+Reference = J1;
+ValeurCmp = JACK_TRS_6PINS;
+IdModule  = RJ12_E;
+EndCmp
+
+BeginCmp
+TimeStamp = /586A3B67;
+Reference = J2;
+ValeurCmp = JACK_TRS_6PINS;
+IdModule  = RJ12_E;
+EndCmp
+
+BeginCmp
+TimeStamp = /586B87EB/586BAA4D;
+Reference = L1;
+ValeurCmp = 2,4u;2,4u;1;
+IdModule  = SELF1408;
+EndCmp
+
+BeginCmp
+TimeStamp = /586A3FA5;
+Reference = P1;
+ValeurCmp = CONN_01X04;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /586A5241;
+Reference = P2;
+ValeurCmp = CONN_01X02;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /586A4056;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /586B87EB/586BB371;
+Reference = R2;
+ValeurCmp = 180k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /586B87EB/586B9F5F;
+Reference = R3;
+ValeurCmp = 20k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /586B87EB/586BB89D;
+Reference = R4;
+ValeurCmp = 85k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /586A488C;
+Reference = U1;
+ValeurCmp = AQV252G;
+IdModule  = SO-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /586B87EB/586BA614;
+Reference = U2;
+ValeurCmp = LT3580;
+IdModule  = SSOP8;
+EndCmp
+
+EndListe

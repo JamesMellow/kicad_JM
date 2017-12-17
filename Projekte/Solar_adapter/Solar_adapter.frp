@@ -1,0 +1,160 @@
+.HEA
+.TIM 06.01.2017 11:27:21
+.APP "Eeschema 4.0.5"
+
+.ADD_COM     J2     "JACK_TRS_6PINS"
+.ADD_COM     J1     "JACK_TRS_6PINS"
+.ADD_COM     P1     "CONN_01X04"
+.ADD_COM     R1     "R"
+.ADD_COM     U1     "AQV252G"
+.ADD_COM     P2     "CONN_01X02"
+.ADD_COM     P3     "CONN_01X03"
+.ADD_COM     C1     "1n"
+.ADD_COM     C3     "1u"
+.ADD_COM     R3     "20k"
+.ADD_COM     U2     "LT3580"
+.ADD_COM     R2     "180k"
+.ADD_COM     D1     "D_Schottky"
+.ADD_COM     R4     "85k"
+.ADD_COM     C2     "0,1u"
+.ADD_COM     C4     "10u"
+.ADD_COM     C5     "2,2u"
+.ADD_COM     JP1     "Jumper_NO_Small"
+.ADD_COM     T1     "TRANSFO"
+.ADD_COM     JP2     "Jumper_NO_Small"
+.ADD_COM     C6     "1n"
+.ADD_COM     C8     "1u"
+.ADD_COM     R6     "20k"
+.ADD_COM     U3     "LT3580"
+.ADD_COM     R5     "165k"
+.ADD_COM     D2     "D_Schottky"
+.ADD_COM     R7     "85k"
+.ADD_COM     C7     "0,1u"
+.ADD_COM     C10     "10u"
+.ADD_COM     C9     "2,2u"
+.ADD_COM     T2     "TRANSFO"
+
+
+.ADD_TER   P3   3     "/15V-Power/Vout_P"
+.TER       JP2   2
+
+.ADD_TER   JP1   2     "/15V-Power/Vout_N"
+.TER       P3   1
+
+.ADD_TER   P2   1     "Net-(P2-Pad1)"
+.TER       U1   4
+
+.ADD_TER   J2   1     "Net-(J2-Pad1)"
+.TER       U1   5
+
+.ADD_TER   R1   2     "+12V-SR"
+.TER       C9   2
+            T1   2
+            P1   4
+            U2   5
+            U2   3
+            T2   2
+            U3   5
+            U3   3
+            C5   2
+            P2   2
+
+.ADD_TER   J2   2     "Net-(J1-Pad2)"
+.TER       J1   2
+
+.ADD_TER   J1   5     "Net-(J1-Pad5)"
+.TER       J2   5
+
+.ADD_TER   U1   6     "Net-(J1-Pad1)"
+.TER       J1   1
+
+.ADD_TER   J1   4     "Net-(J1-Pad4)"
+.TER       J2   4
+
+.ADD_TER   J1   6     "Net-(J1-Pad6)"
+.TER       J2   6
+
+.ADD_TER   J2   3     "Net-(J1-Pad3)"
+.TER       J1   3
+
+.ADD_TER   P1   3     "Net-(P1-Pad2)"
+.TER       P1   2
+
+.ADD_TER   T2   3     "GND"
+.TER       C9   1
+            C10   1
+            C7   1
+            R7   1
+            C4   1
+            C2   1
+            U2   9
+            C1   2
+            R4   1
+            C5   1
+            D1   1
+            C6   2
+            U3   9
+            U1   2
+            P3   2
+            P1   1
+
+.ADD_TER   R1   1     "Net-(R1-Pad1)"
+.TER       U1   1
+
+.ADD_TER   C8   1     "SW_P"
+.TER       T2   1
+            U3   4
+
+.ADD_TER   U3   7     "Net-(C7-Pad2)"
+.TER       C7   2
+
+.ADD_TER   JP2   1     "OUT_P"
+.TER       D2   1
+            C10   2
+            R5   2
+
+.ADD_TER   D2   2     "Net-(C8-Pad2)"
+.TER       T2   4
+            C8   2
+
+.ADD_TER   U3   6     "Net-(R7-Pad2)"
+.TER       R7   2
+
+.ADD_TER   C6   1     "Net-(C6-Pad1)"
+.TER       R6   2
+
+.ADD_TER   U3   1     "Net-(R5-Pad1)"
+.TER       R5   1
+
+.ADD_TER   U3   2     "Net-(R6-Pad1)"
+.TER       R6   1
+
+.ADD_TER   T1   3     "OUT_N"
+.TER       JP1   1
+            C4   2
+            R2   2
+
+.ADD_TER   D1   2     "Net-(C3-Pad2)"
+.TER       T1   4
+            C3   2
+
+.ADD_TER   U2   4     "SW_N"
+.TER       C3   1
+            T1   1
+
+.ADD_TER   C1   1     "Net-(C1-Pad1)"
+.TER       R3   2
+
+.ADD_TER   R2   1     "Net-(R2-Pad1)"
+.TER       U2   1
+
+.ADD_TER   R3   1     "Net-(R3-Pad1)"
+.TER       U2   2
+
+.ADD_TER   U2   6     "Net-(R4-Pad2)"
+.TER       R4   2
+
+.ADD_TER   U2   7     "Net-(C2-Pad2)"
+.TER       C2   2
+
+.END

@@ -1,0 +1,40 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 09.05.2014 23:08:46
+#Cmp ( order = Reference )
+| C1         0,1 uF      
+| C2         C           
+| C3         0,1 uF      
+| C4         C           
+| C5         0,1 uF      
+| C6         C           
+| P1         CONN_5X2    
+| P2         CONN_1      
+| P3         CONN_1      
+| P4         CONN_1      
+| R1         R           
+| R2         R           
+| R3         R           
+| U1         ACS758      
+| U2         ACS758      
+| U3         ACS758      
+#End Cmp
+
+#Komponenten ( Sortiert nach Wert )
+| 0,1 uF       C1        
+| 0,1 uF       C3        
+| 0,1 uF       C5        
+| C            C2        
+| C            C4        
+| C            C6        
+| CONN_5X2     P1        
+| CONN_1       P2        
+| CONN_1       P3        
+| CONN_1       P4        
+| R            R1        
+| R            R2        
+| R            R3        
+| ACS758       U1        
+| ACS758       U2        
+| ACS758       U3        
+#Ende der Komponente
+
+#Ende der Liste

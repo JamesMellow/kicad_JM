@@ -1,0 +1,375 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Stromsensoren
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "9 may 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ACS758 U1
+U 1 1 536D31AA
+P 4150 1200
+F 0 "U1" H 4250 850 60  0000 C CNN
+F 1 "ACS758" H 4150 1500 60  0000 C CNN
+F 2 "" H 4600 800 60  0000 C CNN
+F 3 "" H 4600 800 60  0000 C CNN
+	1    4150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 536D31B9
+P 5650 1750
+F 0 "C2" H 5650 1850 40  0000 L CNN
+F 1 "C" H 5656 1665 40  0000 L CNN
+F 2 "~" H 5688 1600 30  0000 C CNN
+F 3 "~" H 5650 1750 60  0000 C CNN
+	1    5650 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 6000 1000 2    60   Input ~ 0
+VCC_5V
+Wire Wire Line
+	4700 1000 6000 1000
+Text GLabel 6000 1500 2    60   Input ~ 0
+GND_BAT
+Wire Wire Line
+	4700 1500 6000 1500
+Wire Wire Line
+	5650 1450 5650 1550
+Connection ~ 5650 1500
+Wire Wire Line
+	5650 1950 5650 2000
+Wire Wire Line
+	5350 2000 6050 2000
+Text GLabel 6050 2000 2    60   Input ~ 0
+IAC_DC
+Connection ~ 5650 2000
+$Comp
+L C C1
+U 1 1 536D330B
+P 5650 1250
+F 0 "C1" H 5650 1350 40  0000 L CNN
+F 1 "0,1 uF" H 5656 1165 40  0000 L CNN
+F 2 "~" H 5688 1100 30  0000 C CNN
+F 3 "~" H 5650 1250 60  0000 C CNN
+	1    5650 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 1050 5650 1000
+Connection ~ 5650 1000
+$Comp
+L R R1
+U 1 1 536D3341
+P 5100 2000
+F 0 "R1" V 5180 2000 40  0000 C CNN
+F 1 "R" V 5107 2001 40  0000 C CNN
+F 2 "~" V 5030 2000 30  0000 C CNN
+F 3 "~" H 5100 2000 30  0000 C CNN
+	1    5100 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 2000 4850 2000
+Text GLabel 3250 1000 0    60   Input ~ 0
+12V_DC/AC
+Text GLabel 3250 2000 0    60   Input ~ 0
+12V_BAT
+Wire Wire Line
+	3250 2000 3600 2000
+Wire Wire Line
+	3250 1000 3600 1000
+$Comp
+L ACS758 U2
+U 1 1 536D345C
+P 4150 4200
+F 0 "U2" H 4250 3850 60  0000 C CNN
+F 1 "ACS758" H 4150 4500 60  0000 C CNN
+F 2 "" H 4600 3800 60  0000 C CNN
+F 3 "" H 4600 3800 60  0000 C CNN
+	1    4150 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 536D3462
+P 5650 4750
+F 0 "C4" H 5650 4850 40  0000 L CNN
+F 1 "C" H 5656 4665 40  0000 L CNN
+F 2 "~" H 5688 4600 30  0000 C CNN
+F 3 "~" H 5650 4750 60  0000 C CNN
+	1    5650 4750
+	1    0    0    -1  
+$EndComp
+Text GLabel 6000 4000 2    60   Input ~ 0
+VCC_5V
+Wire Wire Line
+	4700 4000 6000 4000
+Text GLabel 6000 4500 2    60   Input ~ 0
+GND_BAT
+Wire Wire Line
+	4700 4500 6000 4500
+Wire Wire Line
+	5650 4450 5650 4550
+Connection ~ 5650 4500
+Wire Wire Line
+	5650 4950 5650 5000
+Wire Wire Line
+	5350 5000 6050 5000
+Text GLabel 6050 5000 2    60   Input ~ 0
+IBAT
+Connection ~ 5650 5000
+$Comp
+L C C3
+U 1 1 536D3472
+P 5650 4250
+F 0 "C3" H 5650 4350 40  0000 L CNN
+F 1 "0,1 uF" H 5656 4165 40  0000 L CNN
+F 2 "~" H 5688 4100 30  0000 C CNN
+F 3 "~" H 5650 4250 60  0000 C CNN
+	1    5650 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4050 5650 4000
+Connection ~ 5650 4000
+$Comp
+L R R2
+U 1 1 536D347A
+P 5100 5000
+F 0 "R2" V 5180 5000 40  0000 C CNN
+F 1 "R" V 5107 5001 40  0000 C CNN
+F 2 "~" V 5030 5000 30  0000 C CNN
+F 3 "~" H 5100 5000 30  0000 C CNN
+	1    5100 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 5000 4850 5000
+Text GLabel 3250 4000 0    60   Input ~ 0
+12V_BAT
+Wire Wire Line
+	2150 5000 3600 5000
+Wire Wire Line
+	3250 4000 3600 4000
+$Comp
+L ACS758 U3
+U 1 1 536D3487
+P 4150 2700
+F 0 "U3" H 4250 2350 60  0000 C CNN
+F 1 "ACS758" H 4150 3000 60  0000 C CNN
+F 2 "" H 4600 2300 60  0000 C CNN
+F 3 "" H 4600 2300 60  0000 C CNN
+	1    4150 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 536D348D
+P 5650 3250
+F 0 "C6" H 5650 3350 40  0000 L CNN
+F 1 "C" H 5656 3165 40  0000 L CNN
+F 2 "~" H 5688 3100 30  0000 C CNN
+F 3 "~" H 5650 3250 60  0000 C CNN
+	1    5650 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 6000 2500 2    60   Input ~ 0
+VCC_5V
+Wire Wire Line
+	4700 2500 6000 2500
+Text GLabel 6000 3000 2    60   Input ~ 0
+GND_BAT
+Wire Wire Line
+	4700 3000 6000 3000
+Wire Wire Line
+	5650 2950 5650 3050
+Connection ~ 5650 3000
+Wire Wire Line
+	5650 3450 5650 3500
+Wire Wire Line
+	5350 3500 6050 3500
+Text GLabel 6050 3500 2    60   Input ~ 0
+I_Solarregler
+Connection ~ 5650 3500
+$Comp
+L C C5
+U 1 1 536D349D
+P 5650 2750
+F 0 "C5" H 5650 2850 40  0000 L CNN
+F 1 "0,1 uF" H 5656 2665 40  0000 L CNN
+F 2 "~" H 5688 2600 30  0000 C CNN
+F 3 "~" H 5650 2750 60  0000 C CNN
+	1    5650 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2550 5650 2500
+Connection ~ 5650 2500
+$Comp
+L R R3
+U 1 1 536D34A5
+P 5100 3500
+F 0 "R3" V 5180 3500 40  0000 C CNN
+F 1 "R" V 5107 3501 40  0000 C CNN
+F 2 "~" V 5030 3500 30  0000 C CNN
+F 3 "~" H 5100 3500 30  0000 C CNN
+	1    5100 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 3500 4850 3500
+Text GLabel 3250 2500 0    60   Input ~ 0
+12V_Solarregler
+Text GLabel 3250 3500 0    60   Input ~ 0
+12V_BAT
+Wire Wire Line
+	3250 3500 3600 3500
+Wire Wire Line
+	3250 2500 3600 2500
+$Comp
+L CONN_5X2 P1
+U 1 1 536D3511
+P 8700 2750
+F 0 "P1" H 8700 3050 60  0000 C CNN
+F 1 "CONN_5X2" V 8700 2750 50  0000 C CNN
+F 2 "" H 8700 2750 60  0000 C CNN
+F 3 "" H 8700 2750 60  0000 C CNN
+	1    8700 2750
+	1    0    0    -1  
+$EndComp
+Text GLabel 8150 2450 0    60   Input ~ 0
+VCC_5V
+Text GLabel 8150 2650 0    60   Input ~ 0
+GND_BAT
+Text GLabel 9350 2450 2    60   Input ~ 0
+IAC_DC
+Text GLabel 9350 2650 2    60   Input ~ 0
+IBAT
+Text GLabel 9350 2800 2    60   Input ~ 0
+I_Solarregler
+Wire Wire Line
+	8150 2450 8250 2450
+Wire Wire Line
+	8250 2450 8250 2550
+Wire Wire Line
+	8250 2550 8300 2550
+Wire Wire Line
+	8150 2650 8300 2650
+Wire Wire Line
+	9100 2550 9150 2550
+Wire Wire Line
+	9150 2550 9150 2450
+Wire Wire Line
+	9150 2450 9350 2450
+Wire Wire Line
+	9350 2650 9100 2650
+Wire Wire Line
+	9100 2750 9250 2750
+Wire Wire Line
+	9250 2750 9250 2800
+Wire Wire Line
+	9250 2800 9350 2800
+Text GLabel 8100 2950 0    60   Input ~ 0
+12V_DC/AC
+Wire Wire Line
+	8100 2950 8300 2950
+$Comp
+L CONN_1 P2
+U 1 1 536D3847
+P 1050 1000
+F 0 "P2" H 1130 1000 40  0000 L CNN
+F 1 "CONN_1" H 1050 1055 30  0001 C CNN
+F 2 "" H 1050 1000 60  0000 C CNN
+F 3 "" H 1050 1000 60  0000 C CNN
+	1    1050 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 P4
+U 1 1 536D3854
+P 1050 4000
+F 0 "P4" H 1130 4000 40  0000 L CNN
+F 1 "CONN_1" H 1050 4055 30  0001 C CNN
+F 2 "" H 1050 4000 60  0000 C CNN
+F 3 "" H 1050 4000 60  0000 C CNN
+	1    1050 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 P3
+U 1 1 536D385A
+P 1050 2500
+F 0 "P3" H 1130 2500 40  0000 L CNN
+F 1 "CONN_1" H 1050 2555 30  0001 C CNN
+F 2 "" H 1050 2500 60  0000 C CNN
+F 3 "" H 1050 2500 60  0000 C CNN
+	1    1050 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L +12V #PWR01
+U 1 1 536D3890
+P 2150 4850
+F 0 "#PWR01" H 2150 4800 20  0001 C CNN
+F 1 "+12V" H 2150 4950 30  0000 C CNN
+F 2 "" H 2150 4850 60  0000 C CNN
+F 3 "" H 2150 4850 60  0000 C CNN
+	1    2150 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 5000 2150 4850
+Text GLabel 1400 2500 2    60   Input ~ 0
+12V_Solarregler
+Text GLabel 1350 4000 2    60   Input ~ 0
+12V_BAT
+Text GLabel 1350 1000 2    60   Input ~ 0
+12V_DC/AC
+Wire Wire Line
+	1350 1000 1200 1000
+Wire Wire Line
+	1200 4000 1350 4000
+Wire Wire Line
+	1200 2500 1400 2500
+$EndSCHEMATC

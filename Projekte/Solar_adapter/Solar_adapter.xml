@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/melles/Desktop/KiCad/Solar_adapter/Solar_adapter.sch</source>
+    <date>04.01.2017 15:52:29</date>
+    <tool>Eeschema 4.0.2-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>3 jan 2017</date>
+        <source>Solar_adapter.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/15V-Power/" tstamps="/586B87EB/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>3 jan 2017</date>
+        <source>15V-Power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>JACK_TRS_6PINS</value>
+      <footprint>Connectors:RJ12_E</footprint>
+      <libsource lib="conn" part="JACK_TRS_6PINS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586A3B67</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>JACK_TRS_6PINS</value>
+      <footprint>Connectors:RJ12_E</footprint>
+      <libsource lib="conn" part="JACK_TRS_6PINS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586A3D0A</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X04</value>
+      <footprint>Sockets_WAGO734:WAGO_734_4pin_Straight</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586A3FA5</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="Solar_adapter-rescue" part="R-RESCUE-Solar_adapter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586A4056</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AQV252G</value>
+      <footprint>Housings_DIP:DIP-6_W7.62mm</footprint>
+      <libsource lib="opto" part="AQV252G"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586A488C</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X02</value>
+      <footprint>Sockets_WAGO734:WAGO_734_2pin_Straight</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586A5241</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="Solar_adapter-rescue" part="C-RESCUE-Solar_adapter"/>
+      <sheetpath names="/15V-Power/" tstamps="/586B87EB/"/>
+      <tstamp>586B882C</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="Solar_adapter-rescue" part="C-RESCUE-Solar_adapter"/>
+      <sheetpath names="/15V-Power/" tstamps="/586B87EB/"/>
+      <tstamp>586B8852</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>20k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="Solar_adapter-rescue" part="R-RESCUE-Solar_adapter"/>
+      <sheetpath names="/15V-Power/" tstamps="/586B87EB/"/>
+      <tstamp>586B9F5F</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LT3580</value>
+      <footprint>Housings_SSOP:MSOP-8-1EP_3x3mm_Pitch0.65mm</footprint>
+      <libsource lib="linear" part="LT3580"/>
+      <sheetpath names="/15V-Power/" tstamps="/586B87EB/"/>
+      <tstamp>586BA614</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>180k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="Solar_adapter-rescue" part="R-RESCUE-Solar_adapter"/>
+      <sheetpath names="/15V-Power/" tstamps="/586B87EB/"/>
+      <tstamp>586BB371</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_Schottky</value>
+      <footprint>Diodes_SMD:D_0805</footprint>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/15V-Power/" tstamps="/586B87EB/"/>
+      <tstamp>586BB682</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>85k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="Solar_adapter-rescue" part="R-RESCUE-Solar_adapter"/>
+      <sheetpath names="/15V-Power/" tstamps="/586B87EB/"/>
+      <tstamp>586BB89D</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0,1u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="Solar_adapter-rescue" part="C-RESCUE-Solar_adapter"/>
+      <sheetpath names="/15V-Power/" tstamps="/586B87EB/"/>
+      <tstamp>586BB9C6</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="Solar_adapter-rescue" part="C-RESCUE-Solar_adapter"/>
+      <sheetpath names="/15V-Power/" tstamps="/586B87EB/"/>
+      <tstamp>586BBC5E</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>2,2u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="Solar_adapter-rescue" part="C-RESCUE-Solar_adapter"/>
+      <sheetpath names="/15V-Power/" tstamps="/586B87EB/"/>
+      <tstamp>586CF1BF</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_NO_Small</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_2x01_Pitch2.54mm</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/15V-Power/" tstamps="/586B87EB/"/>
+      <tstamp>586D0B93</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>TRANSFO</value>
+      <footprint>Choke_Common-Mode_Wurth:744878002_WE</footprint>
+      <libsource lib="device" part="TRANSFO"/>
+      <sheetpath names="/15V-Power/" tstamps="/586B87EB/"/>
+      <tstamp>586D0D6A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="opto" part="AQV252G">
+      <description>SO6, MOSFET Photorelay 1-Form-A, Voff 60V, Ion 100mA</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AQV252G</field>
+        <field name="Footprint">SO-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Solar_adapter-rescue" part="C-RESCUE-Solar_adapter">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-Solar_adapter</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="JACK_TRS_6PINS">
+      <description>audio jack TRS 6 pins</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JACK_TRS_6PINS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="T" type="passive"/>
+        <pin num="3" name="R" type="passive"/>
+        <pin num="4" name="SN" type="passive"/>
+        <pin num="5" name="TN" type="passive"/>
+        <pin num="6" name="RN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper_NO_Small">
+      <description>Jumper normally open</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="LT3580">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT3580</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="~" type="input"/>
+        <pin num="8" name="~" type="input"/>
+        <pin num="9" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Solar_adapter-rescue" part="R-RESCUE-Solar_adapter">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-Solar_adapter</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="TRANSFO">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">TRANSFO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AA" type="passive"/>
+        <pin num="2" name="AB" type="passive"/>
+        <pin num="3" name="SA" type="passive"/>
+        <pin num="4" name="SB" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Solar_adapter-rescue">
+      <uri>C:\Users\melles\Desktop\KiCad\Solar_adapter\Solar_adapter-rescue.lib</uri>
+    </library>
+    <library logical="opto">
+      <uri>C:\Program Files\KiCad\share\kicad\library\opto.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library\linear.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="2" name="Net-(P2-Pad1)">
+      <node ref="P2" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="3" name="Net-(J1-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="2"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C2" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(P1-Pad4)">
+      <node ref="R1" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="7" name="Vin_N">
+      <node ref="T1" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="8" name="OUT_N">
+      <node ref="JP1" pin="1"/>
+      <node ref="T1" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="9" name="Net-(J2-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="10" name="Net-(R1-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad4)">
+      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="14" name="Net-(J1-Pad5)">
+      <node ref="J2" pin="5"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="15" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="16" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="17" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="18" name="OUT_N'">
+      <node ref="JP1" pin="2"/>
+    </net>
+    <net code="19" name="Net-(R4-Pad2)">
+      <node ref="U2" pin="6"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="20" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="21" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="22" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="23" name="SW_N">
+      <node ref="T1" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="24" name="Net-(C3-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="T1" pin="4"/>
+      <node ref="C3" pin="2"/>
+    </net>
+  </nets>
+</export>
