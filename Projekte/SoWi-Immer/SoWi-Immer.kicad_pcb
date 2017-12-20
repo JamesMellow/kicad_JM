@@ -2,11 +2,11 @@
 
   (general
     (links 30)
-    (no_connects 29)
+    (no_connects 28)
     (area 139.949999 77.949999 190.050001 94.050001)
     (thickness 1.6)
     (drawings 4)
-    (tracks 3)
+    (tracks 5)
     (zones 0)
     (modules 17)
     (nets 13)
@@ -39,7 +39,7 @@
   (setup
     (last_trace_width 0.25)
     (trace_clearance 0.2)
-    (zone_clearance 0.508)
+    (zone_clearance 0.2)
     (zone_45_only no)
     (trace_min 0.2)
     (segment_width 0.2)
@@ -743,8 +743,25 @@
   (gr_line (start 190 78) (end 140 78) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 140 78) (end 140 94) (angle 90) (layer Edge.Cuts) (width 0.1))
 
-  (segment (start 144.65 82.9) (end 144.65 89) (width 0.25) (layer F.Cu) (net 0))
+  (segment (start 141.75 90) (end 141.75 85.85) (width 0.25) (layer F.Cu) (net 5) (status 400000))
+  (segment (start 141.75 82) (end 141.75 85.85) (width 0.25) (layer F.Cu) (net 5) (status 400000))
+  (segment (start 141.75 85.85) (end 141.7 85.9) (width 0.25) (layer F.Cu) (net 5) (tstamp 5A3A397B))
   (segment (start 165.5081 89.008) (end 162.658 89.008) (width 0.25) (layer F.Cu) (net 6))
   (segment (start 162.658 89.008) (end 162.65 89) (width 0.25) (layer F.Cu) (net 6) (tstamp 5A36C896))
 
+  (zone (net 5) (net_name "Net-(D2-Pad2)") (layer F.Cu) (tstamp 5A3A392C) (hatch edge 0.508)
+    (connect_pads yes (clearance 0.2))
+    (min_thickness 0.1)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 143 87.25) (xy 140.5 87.25) (xy 140.5 84.65) (xy 143 84.65)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 142.95 87.2) (xy 140.55 87.2) (xy 140.55 84.7) (xy 142.95 84.7)
+      )
+    )
+  )
 )
